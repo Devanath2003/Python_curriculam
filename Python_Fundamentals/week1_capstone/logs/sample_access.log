@@ -1,0 +1,13 @@
+2026-11-19T09:00:01 | GET | /api/v1/health | 200 | 12.4
+2026-11-19T09:01:15 | POST | /api/v1/login | 200 | 145.0
+2026-11-19T09:02:30 | POST | /api/v1/login | 401 | 88.2
+2026-11-19T09:03:10 | GET | /api/v1/users | 200 | 310.5
+CORRUPTED_LINE_MISSING_FIELDS
+2026-11-19T09:05:00 | GET | /api/v1/orders | 500 | 640.8
+2026-11-19T09:06:22 | PUT | /api/v1/users | 200 | 190.0
+2026-11-19T09:07:45 | GET | /api/v1/products | 200 | 95.3
+2026-11-19T09:08:12 | DELETE | /api/v1/orders | 403 | 42.1
+2026-11-19T09:09:00 | GET | /api/v1/orders | NOT_A_NUMBER | 120.0
+2026-11-19T09:10:18 | GET | /api/v1/reports | 200 | 480.2
+2026-11-19T09:11:05 | POST | /api/v1/orders | 201 | 215.6
+

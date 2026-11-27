@@ -1,0 +1,52 @@
+{
+  "system_status": "CRITICAL",
+  "total_valid_requests": 10,
+  "corrupted_lines_skipped": 2,
+  "error_count": 3,
+  "error_percent": 30.0,
+  "avg_latency_ms": 222.01,
+  "unique_endpoints": [
+    "/api/v1/health",
+    "/api/v1/login",
+    "/api/v1/orders",
+    "/api/v1/products",
+    "/api/v1/reports",
+    "/api/v1/users"
+  ],
+  "endpoint_hit_counts": {
+    "/api/v1/health": 1,
+    "/api/v1/login": 2,
+    "/api/v1/orders": 3,
+    "/api/v1/products": 1,
+    "/api/v1/reports": 1,
+    "/api/v1/users": 2
+  },
+  "sla_violations": [
+    "GET /users (310.5 ms)",
+    "GET /orders (640.8 ms)",
+    "GET /reports (480.2 ms)"
+  ],
+  "top_slowest_requests": [
+    {
+      "timestamp": "2026-11-19T09:05:00",
+      "method": "GET",
+      "endpoint": "/api/v1/orders",
+      "status": 500,
+      "latency_ms": 640.8
+    },
+    {
+      "timestamp": "2026-11-19T09:10:18",
+      "method": "GET",
+      "endpoint": "/api/v1/reports",
+      "status": 200,
+      "latency_ms": 480.2
+    },
+    {
+      "timestamp": "2026-11-19T09:03:10",
+      "method": "GET",
+      "endpoint": "/api/v1/users",
+      "status": 200,
+      "latency_ms": 310.5
+    }
+  ]
+}
