@@ -1,0 +1,11 @@
+2026-11-26 15:33:45 | INFO     | billing.processor | Settled INV-101 for INR 2400.00
+2026-11-26 15:33:59 | INFO     | billing.processor | Settled INV-101 for INR 2400.00
+2026-11-26 15:33:59 | WARNING  | billing.processor | Skipping INV-102: non-positive amount(-50.00)
+2026-11-26 15:33:59 | INFO     | billing.processor | Settled INV-999 for INR 8900.00
+2026-11-26 15:42:35 | INFO     | billing.processor | Settled INV-101 for INR 2400.00
+2026-11-26 15:42:35 | WARNING  | billing.processor | Skipping INV-102: non-positive amount(-50.00)
+2026-11-26 15:42:35 | ERROR    | billing.processor | Failed to settle INV-99
+Traceback (most recent call last):
+  File "/tmp/ipykernel_19026/2213271071.py", line 27, in process_invoke
+    raise ConnectionError("Payment gateway timed out")
+ConnectionError: Payment gateway timed out

@@ -1,0 +1,9 @@
+
+INCOME,Salary,45000.0,Monthly internship stipend
+EXPENSE,Food,320.5,Lunch at cafe
+EXPENSE,Transport,150.0,Kochi Metro card recharge
+EXPENSE,Subscriptions,499.0,Cloud server hosting
+EXPENSE,INVALID_AMT,-50.0,Corrupted negative entry
+EXPENSE,Books,850.0,Clean Python architecture book
+INCOME,Freelance,3500.0,API bug fix payout
+EXPENSE,Food,640.0,Weekend dinner
